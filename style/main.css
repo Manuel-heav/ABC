@@ -53,11 +53,22 @@
     background: rgba(46, 55, 37, 0.5); /* Semi-transparent background color */
     padding: 10px;
     border-radius: 50%;
+    margin-right: 10px;
     backdrop-filter: blur(10px); /* Apply blur to create glass effect */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Light border for better visibility */
 }
 
+#header-list .listEl{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#header-list .listEl:hover{
+    color: var(--mainColor);
+}
 
 .container {
     width: 100%;
