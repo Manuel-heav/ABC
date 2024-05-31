@@ -113,15 +113,13 @@ article {
   }
   
   @media screen and (max-width: 960px) {
-    article {
-      container: card/inline-size;
-    }
-    .article-body p {
-      display: none;
+    .articles{
+        display: flex;
+        flex-direction: column;
     }
   }
   
-  @container card (min-width: 380px) {
+  /* @container card (min-width: 380px) {
     .article-wrapper {
       display: grid;
       grid-template-columns: 100px 1fr;
@@ -140,7 +138,7 @@ article {
       aspect-ratio: 1;
       object-fit: cover;
     }
-  }
+  } */
   
   .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0); 

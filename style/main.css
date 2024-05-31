@@ -552,4 +552,8 @@
         font-size: 30px;
     }
     
+    .services .services-bottom{
+        display: flex;
+        flex-direction: column;
+    }
 }
