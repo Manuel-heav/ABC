@@ -208,7 +208,7 @@
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    padding: 100px 5%;
+    padding: 100px 9%;
     background-color: var(--bgColor);
     color: #fff;
     display: flex;
@@ -308,6 +308,71 @@
 .services .services-bottom .service-card p{
     font-size: 15px;
     font-weight: 300;
+}
+
+
+#blog{
+    width: 100%;
+    padding: 100px 9%;
+    background-color: var(--bgColor);
+    color: #fff;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+#blog .blog-header{
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 1px solid var(--mainColor);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--mainColor);
+}
+
+#blog .blog-top{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#blog .blog-text{
+    font-size: 40px;
+    line-height: 45px;
+}
+
+#blog .blog-first{
+    flex: 3;
+}
+
+#blog .blog-top button{
+    flex: 2;
+    display: inline-block;
+    padding: 16px 40px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgba(46, 55, 37, 0.5);
+    color: var(--mainColor);
+    font-size: 17px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+#blog .blog-top button:hover{
+    background-color: #fff;
+    color: var(--bgColor); 
 }
 
 #contact{
@@ -412,7 +477,7 @@
 
 #footer{
     width: 100%;
-    padding: 20px 5%;
+    padding: 20px 9%;
     background-color: var(--mainColor);
     color: var(--bgColor);
     gap: 50px;
