@@ -375,6 +375,69 @@
     color: var(--bgColor); 
 }
 
+
+/* Why us? */
+#why{
+    width: 100%;
+    padding: 100px 9%;
+    background-color: var(--bgColor);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#why .why-right .why-text{
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+#why .why-right .why-desc{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+    color: lightgray;
+}
+
+
+#why .why-right .why-header{
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 1px solid var(--mainColor);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--mainColor);
+}
+
+#why .why-left .why-left-container i{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: var(--mainColor);
+}
+
+#why .why-left .why-left-container .why-card-header{
+    font-size: 20px;
+}
+
+#why .why-left .why-left-container .why-card-desc{
+    font-size: 15px;
+    line-height: 20px;
+    color: lightgray;
+    font-weight: 200;
+
+}
+
+#why .why-left .why-left-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+
+
 #contact{
     width: 100%;
     padding: 100px 9%;
@@ -550,6 +613,15 @@
 
     .accomplishment .acc-number{
         font-size: 30px;
+    }
+
+    #why{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #why .why-left-container{
+        grid-template-columns: 1fr;
     }
     
     .services .services-bottom{
